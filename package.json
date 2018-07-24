@@ -1,0 +1,7 @@
+{
+  "name": "circle-ci",
+  "version": "0.0.0",
+  "main": "index.js",
+  "author": "krishnaxv <krishnaxv@gmail.com>",
+  "license": "MIT"
+}
