@@ -3,5 +3,12 @@
   "version": "0.0.0",
   "main": "index.js",
   "author": "krishnaxv <krishnaxv@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^3.0.2"
+  }
 }
