@@ -8,10 +8,14 @@ jobs:
     docker:
       - image: circleci/node:8.11.3
 
+    branches:
+      only:
+        - master
+
     steps:
       - checkout
       - run:
-          name: Install Dependencies
+          name: Install dependencies
           command: yarn install
       # Run tests!
       - run: yarn test
