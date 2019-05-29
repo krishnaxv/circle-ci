@@ -5,10 +5,9 @@
   "author": "krishnaxv <krishnaxv@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "cypress:open": "cypress open",
-    "test": "cypress run"
+    "test": "jest"
   },
   "devDependencies": {
-    "cypress": "^3.0.2"
+    "jest": "^24.8.0"
   }
 }
